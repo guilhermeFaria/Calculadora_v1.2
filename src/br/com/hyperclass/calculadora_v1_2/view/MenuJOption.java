@@ -39,6 +39,7 @@ public class MenuJOption {
 	private void identificaOpcao(int opcao) {
 		valor1=Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro valor:"));
 		valor2=Integer.parseInt(JOptionPane.showInputDialog("Digite o outro valor:"));
-		JOptionPane.showMessageDialog(null, "O resultado desta Operação é de "+new Factory(operacoes.get(opcao)).fazCalculo(valor1, valor2));
+		JOptionPane.showMessageDialog(null, "O resultado desta Operação é de "
+		+new Factory(operacoes.get(opcao)).fazCalculo(valor1, valor2));
 	}
 }	
