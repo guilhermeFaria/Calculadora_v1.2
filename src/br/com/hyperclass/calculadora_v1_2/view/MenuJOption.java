@@ -35,7 +35,6 @@ public class MenuJOption {
 			}
 		}
 	}
-	
 	private void identificaOpcao(int opcao) {
 		valor1=Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro valor:"));
 		valor2=Integer.parseInt(JOptionPane.showInputDialog("Digite o outro valor:"));
