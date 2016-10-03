@@ -6,6 +6,13 @@ import java.util.Map;
 
 import javax.swing.JOptionPane;
 
+/**
+ * A classe <code>MenuJOption</code> é a classe view da aplicação.
+ *  
+ * @author Guilherme Faria
+ *
+ * @version 1.2.0 13/09/2016
+ */
 public class MenuJOption {
 	private int cont =0;
 	private Map<Integer, Operacao> operacoes;
@@ -35,7 +42,7 @@ public class MenuJOption {
 			}
 		}
 	}
-	private void identificaOpcao(int opcao) {
+	private void identificaOpcao(final int opcao) {
 		valor1=Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro valor:"));
 		valor2=Integer.parseInt(JOptionPane.showInputDialog("Digite o outro valor:"));
 		JOptionPane.showMessageDialog(null, "O resultado desta Operação é de "

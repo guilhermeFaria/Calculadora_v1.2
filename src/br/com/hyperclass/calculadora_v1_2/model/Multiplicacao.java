@@ -1,5 +1,14 @@
 package br.com.hyperclass.calculadora_v1_2.model;
 
+/**
+ * A classe <code>Multiplicacao</code> é a classe responsavel por efetuar
+ * a multiplicação dos valores recebidos e retornar o seu resultado.
+ * 
+ * @author Guilherme Faria
+ *
+ * @version 1.2.0 13/09/2016
+ */
+
 public class Multiplicacao implements Operacao{
 
 	@Override
